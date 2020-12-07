@@ -17,7 +17,7 @@ var CONFIG = {
     // See https://github.com/jantimon/html-webpack-plugin
     indexHtmlTemplate: "./src/index.html",
     fsharpEntry: "./src/App.fsproj",
-    cssEntry: "./styles/main.scss",
+    cssEntry: "./src/styles/main.css",
     outputDir: "./deploy",
     assetsDir: "./public",
     devServerPort: 8080,
