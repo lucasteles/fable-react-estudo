@@ -7,7 +7,7 @@ tests-js
 .ionide
 config.json
 .env
-dist
+client/dist
 output
 bundle
 Server.fsproj.user
