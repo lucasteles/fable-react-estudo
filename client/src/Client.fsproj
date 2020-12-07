@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="styles\main.scss" />
+        <None Include="index.html" />
+        <Compile Include="Types.fs" />
+        <Compile Include="Api.fs" />
+        <Compile Include="LoginPage.fs" />
+        <Compile Include="ProfilePage.fs" />
+        <Compile Include="Components.fs" />
+        <Compile Include="Main.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fable.JsonProvider" Version="1.0.1" />
+        <PackageReference Include="Fable.Promise" Version="2.1.0" />
+        <PackageReference Include="Fable.SimpleHttp" Version="3.0.0" />
+        <PackageReference Include="Fable.SimpleJson" Version="3.17.0" />
+        <PackageReference Include="Feliz" Version="1.17.0" />
+        <PackageReference Include="Feliz.Bulma" Version="2.5.0" />
+        <PackageReference Include="Zanaptak.TypedCssClasses" Version="0.4.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Update="FSharp.Core" Version="5.0.0" />
+    </ItemGroup>
+</Project>

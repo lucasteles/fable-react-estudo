@@ -1,6 +1,7 @@
 module.exports = {
-    entry: "tests/Tests.fsproj",
+    entry: "tests/Client.Tests.fsproj",
     outDir: "tests-js",
+    fable: { define: ["MOCHA_TESTS"] },
     babel: {
         sourceMaps: false,
         presets: [
